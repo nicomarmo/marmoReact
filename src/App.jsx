@@ -12,7 +12,7 @@ const styles = {marginLeft: "200px", color: "red"};
   return (
     <div>
         <NavBar />
-        <ItemListContainer />
+        <ItemListContainer greeting='Hola!' style={styles} />
     </div>
   );
 }
