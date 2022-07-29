@@ -8,6 +8,7 @@ const styles = {marginLeft: "200px", color: "red"};
     <div>
         <NavBar />
         <ItemListContainer greeting='Hola!' style={styles} />
+        
     </div>
   );
 }
