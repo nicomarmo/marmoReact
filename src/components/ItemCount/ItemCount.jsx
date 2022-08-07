@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+
 function ItemCount(props){
     const [clicks, setClicks] = useState(1);
     const handlerIncrement=()=> {
@@ -17,7 +18,7 @@ function ItemCount(props){
             <h2>Queres {clicks} items</h2>
             <h3>Stock es de {props.stock} </h3>
             <h3>Supuesto Carrito: {clicks} </h3>
-
+            
         </div>
     )
 }
