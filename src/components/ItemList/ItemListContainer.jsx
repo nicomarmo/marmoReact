@@ -24,7 +24,6 @@ const ItemListContainer = () => {
 
   return (
     <div className="container">
-      {/* El mapa debería realizarse en el componente <ItemList>, al que le pasamos el estado "products" mediante props */}
       {products.map((item) => {
         return (
           <Card
