@@ -1,5 +1,6 @@
 import "./NavBar.css"
 import Carrito from "../Carrito/Carrito";
+import { Link } from "react-router-dom";
 
 function NavBar() {
 const styles = {listStyle: "none", textDecoration: "none", color: "black"};
@@ -8,11 +9,11 @@ const styles = {listStyle: "none", textDecoration: "none", color: "black"};
         <div>
             <header>
                 <ul className="marian" style={styles}>
-                    <a href="#" style={styles}><li>Marisetas</li></a>
-                    <a href="#" style={styles}><li>Productos</li></a>
-                    <a href="#" style={styles}><li>Ofertas</li></a>
-                    <a href="#" style={styles}><li>Contacto</li></a>
-                    <a href="#" style={styles}><li>Lupa</li></a>
+                    <Link to='/' style={styles}><li>Marisetas</li></Link>
+                    <Link to='/' style={styles}><li>Productos</li></Link>
+                    <Link to='/' style={styles}><li>Ofertas</li></Link>
+                    <Link to='/' style={styles}><li>Contacto</li></Link>
+                    <Link to='/' style={styles}><li>Lupa</li></Link>
                     <Carrito />
                 </ul>
             </header>
